@@ -13,7 +13,11 @@ public class CicdActionsApplication {
 	public String welcome(){
 		return "Andrea was here";
 	}
-	
+
+	@GetMapping("/goodbye")
+	public String goodbye(){
+		return "Andrea says goodbye";
+	}
 	
 //	echo "# cicdactions" >> README.md
 // git init
